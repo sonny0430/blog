@@ -27,6 +27,9 @@
 
 https://world.weniv.co.kr/
 
+
+![image](img/위니브-파이썬-부트캠프-수료증.png)
+
 1. 1번 항목
 2. 2번 항목
 3. 3번 항목
