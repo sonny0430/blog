@@ -15,7 +15,7 @@ const users = [
     id: 0, // default author
     username: "sonny",
     company: "weniv",
-    position: "CEO",
+    position: "Student",
     img: "img/user/profile-licat.png",
   },
 ];
