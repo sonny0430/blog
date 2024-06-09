@@ -3,6 +3,7 @@
 - 컴프리헨션 (Comprehension)문법은 Core가 C로 되어 있으며, 2중 이상으로 사용하지 않는 것을 권고한다.
 - 일반 for loop 문을 활용하여 list.append()를 사용하는 것보다 속도가 빠르다.
 - if문과 for문을 활용하여 원하는 값을 포함한 리스트를 생성할 때 유용하다.
+>- if문의 위치는 if만 사용시 for문 보다 우측에, if~else를 사용시 for문보다 좌측에 사용한다.
 
 ## for 문
 Python 코드:
@@ -13,6 +14,8 @@ def solution(data):
     result = [sum(i)//3 for i in data]
         
     return len(list(filter(lambda x: x >= 80, result)))
+
+solution([[98, 92, 85], [95, 32, 51], [98, 98, 51]])
 ```
 ## if 문
 Python 코드:
@@ -23,6 +26,8 @@ def solution(data):
     result = [i[0] for i in data if sum(i[1:])>=350]  
              
     return sorted(result)
+
+solution([['Licat', 98, 92, 85, 97], ['Mura', 95, 32, 51, 30], ['Binky', 98, 98, 51, 32]])
 ```
 
 ## if else 문
@@ -32,6 +37,8 @@ Python 코드:
 
 def solution(data):
     return sum([int(s) if s.isdigit() == True else 0 for s in data])
+
+solution('1hel2lo3')
 ```
 
 ## 0으로만 채운 리스트
@@ -41,7 +48,7 @@ Python 코드:
 [0 for _ in range(n)]
 
 # 0을 n개씩 채운 2중 리스트
-[[0 for _ in range(n)] for _ in range(n)]
+[[0 for _ in range(n)] for _ in range(n)]]
 ```
 
 
