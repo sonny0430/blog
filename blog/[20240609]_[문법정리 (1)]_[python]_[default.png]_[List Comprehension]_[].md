@@ -3,7 +3,7 @@
 - 컴프리헨션 (Comprehension)문법은 Core가 C로 되어 있으며, 2중 이상으로 사용하지 않는 것을 권고한다.
 - 일반 for loop 문을 활용하여 list.append()를 사용하는 것보다 속도가 빠르다.
 - if문과 for문을 활용하여 원하는 값을 포함한 리스트를 생성할 때 유용하다.
->- if문의 위치는 if만 사용시 for문 보다 우측에, if~else를 사용시 for문보다 좌측에 사용한다.
+- if문의 위치는 if만 사용시 for문 보다 우측에, if~else를 사용시 for문보다 좌측에 사용한다.
 
 ## for 문
 Python 코드:
