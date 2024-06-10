@@ -19,10 +19,10 @@
 
 - 출력 print()
 ```python
-    print("프린트문 연습", end="~~~~")
-    print("프린트문 연습", end="\n")
-    print(help(print))
-    print("","","","", end="\n\n\n", sep=" - - ")
+print("프린트문 연습", end="~~~~")
+print("프린트문 연습", end="\n")
+print(help(print))
+print("","","","", end="\n\n\n", sep=" - - ")
 ```
 
 
@@ -45,10 +45,10 @@
     - bool형 : True / False
     - 자료형의 확인 : type()
 ```python
-    print(type("홍길동"))
-    print(type(1234))
-    print(type(1.234))
-    print(type(True))
+print(type("홍길동"))
+print(type(1234))
+print(type(1.234))
+print(type(True))
 ```
 
 - 이스케이핑 (Escaping)
@@ -56,53 +56,53 @@
     - 역슬레시 \ 를 활용해 이스케이핑한다.
 ```python
     # 적용 예시
-    print(r"C:\workspace\first\lec\chapter01.py")
-    print("C:\\workspace\\first\\lec\\chapter01.py")
+print(r"C:\workspace\first\lec\chapter01.py")
+print("C:\\workspace\\first\\lec\\chapter01.py")
 ```
 
 - 여러줄 문자열 방법
 ```python
-    a = """
-    asdf
-    zxcv
+a = """
+asdf
+zxcv
 """
 
-    a = " \
-    asdf \
-    zxcv \
+a = " \
+asdf \
+zxcv \
 "
 ```
 
 - 문자열 합 연산자
 ```python
-    print("홍길동은" + str(20) + "학생이다")
+print("홍길동은" + str(20) + "학생이다")
 ```
 
 - 문자열 반복 연산자
 ```python
-    print("인사오십번하기 : " + "안녕하세요" - 50)
+print("인사오십번하기 : " + "안녕하세요" - 50)
 ```
 
 - 문자열 슬라이싱 []
     - 인덱스(index) 숫자는 0부터 시작
 ```python
-    print("안녕하세요"[0:5])
-    print("안녕하세요"[2:3])
-    print("안녕하세요"[::2])
+print("안녕하세요"[0:5])
+print("안녕하세요"[2:3])
+print("안녕하세요"[::2])
 ```
 
 - 문자열 인덱싱 (Indexing)
     - 문자열 자체가 순서를 세는 것이 가능한 이터러블 객체
     - 인덱스로 접근이 가능한 컨테이너 객체
 ```python
-    print("안녕하세요"[2])
-    print("안녕하세요"[-1])
+print("안녕하세요"[2])
+print("안녕하세요"[-1])
 ```
 
 - 문자열의 개수
     - len() 사용
 ```python
-    print(len("홍길동은 20살 입니다"))
+print(len("홍길동은 20살 입니다"))
 ```
     - [] index 0~11 vs len 개수 12
 
