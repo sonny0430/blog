@@ -52,4 +52,22 @@ Python 코드:
 ```
 
 
+
+# 딕셔너리의 sorted 정렬
+## key와 value를 이용한 sorted 다중 조건 적용
+
+```python
+# items()를 이용해, 튜플로 받은 뒤 x[1] (value), x[0] (key)를 이용한 다중조건 정렬
+# 다중조건은 lambda 내부에 튜플 형태로 작성한다. (조건, 조건)
+def solution(data):
+    temp = sorted(data[1].items(), key = lambda x: (x[1], x[0]))
+    return [temp[i][0] for i in range(len(temp))]
+
+```
+
+
+# map / filter 차이
+
+
+
 글 내부에 사용된 문제 출처 (https://100.pyalgo.co.kr/)
