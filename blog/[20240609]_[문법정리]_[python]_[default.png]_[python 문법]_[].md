@@ -70,4 +70,10 @@ def solution(data):
 
 
 
+# 카데인 알고리즘
+
+# 에라토스테네스의 체
+
+
+
 글 내부에 사용된 문제 출처 (https://100.pyalgo.co.kr/)
