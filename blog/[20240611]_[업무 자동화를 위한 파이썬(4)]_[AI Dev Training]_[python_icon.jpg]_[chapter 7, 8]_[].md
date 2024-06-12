@@ -288,7 +288,26 @@ class Plant:
 ```
 
 
-## 스태틱 메소드
+## 클래스 메소드 / 스태틱 메소드
+둘 다 데코레이터 (@)를 사용해서 만든다.
+
+```python
+class Plant:
+    def __init__(self, name, color):
+        self.name = name + '로봇'
+        self.color = color
+
+    # cls => class를 의미한다.
+    @classmethod
+    def 카운트(cls):
+        cls.찍어낸횟수 += 1
+        print(cls.찍어낸횟수)
+    
+    @staticmethod
+    def 기능미소():
+        print('웃는표정')
+
+```
 
 ## 겟터 / 셋터
 ### 겟터
