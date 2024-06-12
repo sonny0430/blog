@@ -188,6 +188,15 @@ Java : class 클래스명 extends 부모클래스
 
 Python : class 클래스명(부모클래스)
 
+## 다중상속
+Java : 다중상속 지원 X (인터페이스로 대체 가능)
+
+Python : 다중상속 지원
+
+=> 메소드 결정순서에 따른다. 
+
+=> (M R O : Method Resolution Order)
+
 ```python
 class Character:
     최대속도 = 100
@@ -289,7 +298,11 @@ class Plant:
 
 
 ## 클래스 메소드 / 스태틱 메소드
-둘 다 데코레이터 (@)를 사용해서 만든다.
+둘 모두 데코레이터 (@)를 사용해서 만든다.
+
+클래스 메소드 : @classmethod
+
+스태틱 메소드 : @staticmethod
 
 ```python
 class Plant:
@@ -345,9 +358,13 @@ public => 변수명
 => 단 조건 인자 or 리턴을 다르게 한다.
 
 ## 추상클래스
+데코레이터 : @abstractmethod
+
 정의만 해두고 구체적인 구현은 상속받은 클래스에서 오버라이드를 통해 사용한다.
 
 구체적이지 않은 메소드가 1개 이상이면 추상클래스이다.
+
+Java : extends를 통해 상속받는다.
 
 ## 인터페이스
 파이썬에는 존재하지 않는다.
@@ -355,3 +372,5 @@ public => 변수명
 모든 게 다 추상 메소드로 구성되어 있다.
 
 이름 정의만 되어있다.
+
+Java : implements를 통해 상속받는다.
