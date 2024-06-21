@@ -33,6 +33,10 @@ Crawler
 # status code sheet : https://javaconceptoftheday.com/http-status-codes-cheat-sheet/
 ```
 
+## 크롤링을 진행할 사이트
+=> https://www.onoffmix.com/event/main/?c=105
+
+
 ## crawling.py
 이전에 만든 dbconn_orm.py, conf.py의 클래스 활용
 
